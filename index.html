@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <script
+      src="https://kit.fontawesome.com/525fd5b530.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div class="main" id="main">
+      <div class="task">
+        <input
+          type="text"
+          class="content"
+          placeholder="Add Task ..."
+          id="text"
+        />
+        <div class="item additem" id="additem"><i class="fas fa-plus"></i></div>
+        <div class="item deleitem" id="deleitem">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </div>
+      <ul id="element"></ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
